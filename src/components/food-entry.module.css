@@ -1,0 +1,35 @@
+.foodEntryWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 60px;
+}
+
+.foodName {
+  border: none;
+  background-color: white;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding-bottom: 3px;
+}
+
+.deleteButton {
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  cursor: pointer;
+  padding: 0px 0px 3px 0px;
+}
+
+.foodDescription {
+  text-align: center;
+  font-style: italic;
+}

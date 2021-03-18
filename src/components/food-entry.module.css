@@ -26,7 +26,7 @@
   font-weight: 900;
   text-align: center;
   cursor: pointer;
-  padding-bottom: 3px;
+  padding: 0px 0px 3px 0px;
 }
 
 .foodDescription {

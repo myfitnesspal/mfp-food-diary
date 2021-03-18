@@ -62,7 +62,7 @@ function FoodDiary() {
         id={mealFood.id} 
         name={mealFood.name} 
         description={mealFood.description} 
-        onDelete={() => deleteFood(mealFood.id)}
+        onDelete={deleteFood(mealFood.id)}
         toggleDescription={() => toggleDescription(mealFood.id)}
         descriptionVisible={mealFood.descriptionVisible}
       /> 
@@ -95,12 +95,15 @@ function FoodDiary() {
             <h3>Meal</h3>
             <select value={mealDropdown} onChange={handleMealDropdownChange}>
               <option value=''>Choose Meal</option>
-              <option value='breakfast'>Breakfast</option>
+              <option value='lunch'>Breakfast</option>
               <option value='lunch'>Lunch</option>
               <option value='dinner'>Dinner</option>
             </select>
           </div>
-          <button className={styles.addButton} onClick={addFood}>+</button>
+          <div>
+            <div className={styles.buttonWrapper}></div>
+            <button className={styles.addButton} onClick={addFood}>+</button>
+          </div>
         </div>
     </div>   
   )

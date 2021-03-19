@@ -100,9 +100,7 @@ function FoodDiary() {
               <option value='dinner'>Dinner</option>
             </select>
           </div>
-          <div>
-            <button className={styles.addButton} onClick={addFood}>+</button>
-          </div>
+          <button className={styles.addButton} onClick={addFood}>+</button>
         </div>
     </div>   
   )

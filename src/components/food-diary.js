@@ -41,7 +41,7 @@ function FoodDiary() {
   }
 
   const addFood = () => {
-    const newFood = {name: foodInput, description: descriptionInput, meal: mealDropdown, id: Math.random()}
+    const newFood = {mame: foodInput, description: descriptionInput, meal: mealDropdown, id: Math.random()}
     const newFoods = foods.concat(newFood)
     setFoods(newFoods)
     clearForm()
@@ -101,7 +101,6 @@ function FoodDiary() {
             </select>
           </div>
           <div>
-            <div className={styles.buttonWrapper}></div>
             <button className={styles.addButton} onClick={addFood}>+</button>
           </div>
         </div>

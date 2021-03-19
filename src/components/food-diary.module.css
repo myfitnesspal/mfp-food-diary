@@ -51,10 +51,3 @@ select {
   cursor: pointer;
   padding: 0px 0px 3px 0px;
 }
-
-.buttonWrapper {
-  z-index: 1px;
-  position: absolute;
-  width: 25px;
-  height: 25px;
-}

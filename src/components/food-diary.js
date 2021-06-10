@@ -28,10 +28,10 @@ function FoodDiary() {
   }
 
   const toggleDescription = (id) => {
-    const foodSelected = foods.filter(food => food.id === id)[0]
+    const alteredFoods = [...foods]
+    const foodSelected = alteredFoods.filter(food => food.id === id)[0]
     !foodSelected.descriptionVisible ? foodSelected.descriptionVisible = true : foodSelected.descriptionVisible = false
 
-    const alteredFoods = foods.filter(food => food.id !== id).concat(foodSelected)
     setFoods(alteredFoods)
   }
 

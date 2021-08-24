@@ -8,7 +8,7 @@ function FoodEntry({name, description, descriptionVisible, onDelete}) {
     <React.Fragment>
       <div className={styles.foodEntryWrapper}>
         <button className={styles.foodName}>{name}</button>
-        <button className={styles.deleteButton} onClick={onDelete}>-</button>
+        <button className={styles.deleteButton} onClick={onDelete}></button>
       </div>   
       <div className={styles.foodDescription}>
         {descriptionVisible ? <p>Description: {description}</p> : null}

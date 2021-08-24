@@ -18,15 +18,9 @@
 .deleteButton {
   background-color: red;
   border: none;
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  color: white;
-  font-size: 18px;
-  font-weight: 900;
-  text-align: center;
+  width: 27px;
+  height: 10px;
   cursor: pointer;
-  padding: 0px 0px 3px 0px;
 }
 
 .foodDescription {

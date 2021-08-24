@@ -39,15 +39,11 @@ select {
 }
 
 .addButton {
-  background-color: blue;
-  border: none;
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  color: white;
-  font-size: 18px;
+  background-color: white;
+  border: none; 
+  color: blue;
+  font-size: 45px;
   font-weight: 900;
-  text-align: center;
   cursor: pointer;
-  padding: 0px 0px 3px 0px;
+  padding: 20px 0px 0px 0px;
 }
